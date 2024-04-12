@@ -1,0 +1,28 @@
+a=input("enter first word:")
+b=input("enter second word:")
+#slicing
+s1=a[0:5]
+print(s1)
+s1=a[0:5:2]
+print(s1)
+s1=a[0:]
+print(s1)
+s1=a[:5]
+print(s1)
+#functions
+s1=len(a)
+print("length of string is:%s"%s1)
+s1=a.endswith("am")
+print("is string ending with am? %s"%s1)
+s1=a.endswith("sa")
+print("is string ending with sa? %s"%s1)
+s1=a.count("a")
+print("frequency of a in string 1 is:%d"%s1)
+s1=a.capitalize()
+print("capitalize string is %s"%s1)
+s1=a.find("y")
+print("y is at position %d"%s1)
+s1=a.replace('a','r')
+print("replacing a with r :%s"%s1)
+print("concatened string is %s"%(a+b))
+print(a*10 )
