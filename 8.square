@@ -1,0 +1,3 @@
+a=input("enter a numner:")
+a=int(a)
+print("square of number is ",a*a)
